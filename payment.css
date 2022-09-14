@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+.container{
+    background-color: rgba(53, 13, 233, 0.959);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 60px;
+    
+}
+
+form{
+    padding: 70px;
+    width: 800px;
+    background-color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 20px;
+    
+}
+.col{
+    flex: 1 1 250px;
+
+}
+.tittle{
+    font-size: 30px;
+    color: brown;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.input-box{
+    margin: 15px 0;
+
+}
+.input-box label{
+     margin-bottom: 10px;
+     display: block;
+}
+.input-box input{
+    width: 100%;
+    border: 2px solid #000;
+    padding: 10px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.input-box input:focus{
+    border:1px solid #000;
+
+
+}
+img{
+    height: 40px;
+    margin-top: 15px;
+}
+.submit-btn{
+    font-size: 30px;
+     background: rgba(68, 0, 255, 0.952);
+     margin-top: 10px;
+     border-radius: 30px;
+     width: 100%;
+     cursor: pointer;
+
+}
+.button.hover{
+    border: 3px solid;
+    background-color: white;
+    border-radius: 15px;
+
+    
+}
